@@ -1,7 +1,7 @@
 import * as readline from 'readline/promises';
 import { conectar, FILA } from './messageBroker';
 const read = readline.createInterface(
-  { input: process.stdin, output: process.stdout })
+  { input: process.stdin, output: process.stdout });
 
 async function main() {
   const canal = await conectar();

@@ -1,9 +1,9 @@
 import client, { Channel, Connection } from 'amqplib';
-import * as dotenv from 'dotenv'
+import * as dotenv from 'dotenv';
 
-dotenv.config()
+dotenv.config();
 
-export const FILA = 'mensagens'
+export const FILA = 'mensagens';
 
 /** Conecta, cria um canal e uma fila, retornando o canal */
 export async function conectar() {

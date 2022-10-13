@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "produtor": "ts-node src/produtor.ts",
-    "consumidor": "ts-node src/consumidor.ts",
+    "produtor-fila": "ts-node src/fila/produtor.ts",
+    "consumidor-fila": "ts-node src/fila/consumidor.ts",
+    "produtor-topico": "ts-node src/topico/produtor.ts",
+    "consumidor-topico": "ts-node src/topico/consumidor.ts",
     "lint": "eslint"
   },
   "author": "Luis Fernando Planella Gonzalez",

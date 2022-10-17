@@ -1,15 +1,15 @@
 Exemplo de um produtor / consumidor
 ===================================
 
-Exemplo de um produtor / consumidor utilizando o RabbitMQ.
+Exemplo escrito em NodeJS de um produtor / consumidor utilizando o RabbitMQ.
 Na verdade, o exemplo usa o protocolo AMQP, que é implementado por outros message brokers também.
 
 # Requisitos
 
-- nodejs 16+
-- NPM 7+
-- Docker
-- Docker-compose
+- [NodeJS 16+](https://nodejs.org/)
+- [NPM 7+](https://www.npmjs.com/)
+- [Docker](https://www.docker.com/)
+- [Docker-compose](https://docs.docker.com/compose/install/)
 
 # Iniciando o RabbitMQ localmente
 

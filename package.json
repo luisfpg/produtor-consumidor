@@ -1,7 +1,9 @@
 {
   "name": "exemplo-rabbitmq",
   "version": "1.0.0",
-  "description": "",
+  "description": "Exemplo de produtor / consumidor com RabbitMQ",
+  "author": "Luis Fernando Planella Gonzalez",
+  "license": "MIT",
   "scripts": {
     "produtor-fila": "ts-node src/fila/produtor.ts",
     "consumidor-fila": "ts-node src/fila/consumidor.ts",
@@ -9,8 +11,6 @@
     "consumidor-topico": "ts-node src/topico/consumidor.ts",
     "lint": "eslint"
   },
-  "author": "Luis Fernando Planella Gonzalez",
-  "license": "MIT",
   "dependencies": {
     "amqplib": "^0.10.3",
     "dotenv": "^16.0.3"

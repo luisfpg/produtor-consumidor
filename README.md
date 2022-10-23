@@ -6,7 +6,7 @@ Na verdade, o exemplo usa o protocolo AMQP, que é implementado por outros messa
 
 # Requisitos
 
-- [NodeJS 16+](https://nodejs.org/)
+- [NodeJS 18+](https://nodejs.org/)
 - [NPM 7+](https://www.npmjs.com/)
 - [Docker](https://www.docker.com/)
 - [Docker-compose](https://docs.docker.com/compose/install/)
